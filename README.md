@@ -52,4 +52,4 @@ Make sure you have a checkpoint.pth generated before running that command!
 - This script implements the replay buffer for storing the experiences in the reinforcement learning project.
 
 **train_dqn**
-- This script implements all of the scripts so far (agent.py, network.py, and replay_memory.py). This is where it intializes the reinforcement learning agent, and trains it over a certain max vlaue of episodes (2000 in this case). It will then act using the greedy-epsilon policy and update the knowledge through the expeirences saved in the replay buffer.
+- This script implements all of the scripts so far (agent.py, network.py, and replay_memory.py). This is where it intializes the reinforcement learning agent, and trains it over a certain amount of episodes depending on the score (2000 is the max in this case). It will then act using the greedy-epsilon policy and update the knowledge through the expeirences saved in the replay buffer.
