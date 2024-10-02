@@ -29,12 +29,15 @@ or
 ```
 pip install -r requirementsVisualizer.txt
 ```
-Afterwards, run the train_dqn.py file to see the Agent generate multiple steps to get the goal of the score! (200.0 is what we set, you can change it to something else in the train_dqn code)
+Afterwards, run the train_dqn.py file to see the Agent generate multiple steps to get the goal of the score! (200.0 is what we set, you can change it to something else in the train_dqn code):
+```
+python train_dqn.py
+```
 
 You can then (if you downloaded the requirementsVisualize.txt) run this code:
-'''
+```
 python visualize_results.py
-'''
+```
 
 Make sure you have a checkpoint.pth generated before running that command!
 
